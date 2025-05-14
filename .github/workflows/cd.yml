@@ -18,7 +18,6 @@ jobs:
       - name: install goose
         run: |
             curl -fsSL https://raw.githubusercontent.com/pressly/goose/master/install.sh | sh
-            sudo mv goose /usr/local/bin
 
       - name: set up go
         uses: actions/setup-go@v5
